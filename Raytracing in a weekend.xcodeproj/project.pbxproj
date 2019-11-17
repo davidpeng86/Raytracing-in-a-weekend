@@ -27,6 +27,9 @@
 		C4F2AD392381025E0044B795 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C4F2AD412381039C0044B795 /* vec3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
 		C4F2AD44238104EA0044B795 /* ray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ray.hpp; sourceTree = "<group>"; };
+		C4F2AD4A2381099E0044B795 /* hitable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hitable.hpp; sourceTree = "<group>"; };
+		C4F2AD4D23810B3A0044B795 /* sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sphere.hpp; sourceTree = "<group>"; };
+		C4F2AD5023810FB40044B795 /* hitable_list.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hitable_list.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				C4F2AD392381025E0044B795 /* main.cpp */,
+				C4F2AD5023810FB40044B795 /* hitable_list.hpp */,
+				C4F2AD4D23810B3A0044B795 /* sphere.hpp */,
+				C4F2AD4A2381099E0044B795 /* hitable.hpp */,
 				C4F2AD44238104EA0044B795 /* ray.hpp */,
 				C4F2AD412381039C0044B795 /* vec3.hpp */,
 			);
