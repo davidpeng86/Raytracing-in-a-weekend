@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C4F2AD362381025E0044B795 /* Raytracing in a weekend */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Raytracing in a weekend"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F2AD392381025E0044B795 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C4F2AD412381039C0044B795 /* vec3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = vec3.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				C4F2AD392381025E0044B795 /* main.cpp */,
+				C4F2AD412381039C0044B795 /* vec3.hpp */,
 			);
 			path = "Raytracing in a weekend";
 			sourceTree = "<group>";
