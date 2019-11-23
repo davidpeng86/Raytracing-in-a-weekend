@@ -46,7 +46,7 @@ int main(int argc, const char * argv[]) {
                 ray r = cam.get_ray(u, v);
                 col += color(r,world);
             }
-            col /= ns*ns;
+            col /= ns;
             
             int ir = int(255.99*col[0]);
             int ig = int(255.99*col[1]);
